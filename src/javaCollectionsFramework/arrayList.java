@@ -74,7 +74,6 @@ public class arrayList {
             }
 
             Iterator<Integer> it = list.iterator();
-
             while(it.hasNext()) {
                 System.out.println("Iterator : "+ it.next());
             }
