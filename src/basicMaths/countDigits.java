@@ -2,14 +2,16 @@ package basicMaths;
 
 import java.util.Scanner;
 
+import static java.lang.Math.log10;
+
 public class countDigits {
     public static int calculateCount(int n) {
-        int count = 0;
-        while(n>0) {
-            int lastDigit = n%10;
-            count++;
-            n/=10;
-        }
+//        int count = 0;
+//        while(n>0) {
+//            count++;
+//            n=n/10;
+//        }
+        int count = (int)(log10(n)+1);
         return count;
     }
     public static void main(String[] args) {
