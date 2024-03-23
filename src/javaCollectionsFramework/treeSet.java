@@ -1,0 +1,36 @@
+package javaCollectionsFramework;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class treeSet {
+    public static void main(String[] args) {
+        Set<Integer> set = new TreeSet<>();
+
+        set.add(32);
+        set.add(2);
+        set.add(54);
+        set.add(21);
+        set.add(65);
+
+        System.out.println(set);
+
+        set.remove(54); // removes element from the set
+
+        System.out.println(set);
+
+        System.out.println(set.contains(2));
+
+        System.out.println(set.isEmpty()); // checks if the set is empty or not
+
+        System.out.println(set.size()); // returns the size of the set
+
+        System.out.println(set);
+
+        set.clear(); // clears all the elements in the set
+        System.out.println(set);
+
+        // Time Complexity --> O(Log n)
+    }
+}
