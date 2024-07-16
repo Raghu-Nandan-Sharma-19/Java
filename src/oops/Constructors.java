@@ -15,7 +15,7 @@ public class Constructors {
     }   
     static class Complex {
         int a, b;
-        Complex(int real, int imaginary) {
+        public Complex(int real, int imaginary) {
             a = real;
             b = imaginary;
         }
