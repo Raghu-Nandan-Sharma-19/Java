@@ -20,19 +20,19 @@ public class ThisKeyword {
         result.print();
         in.close();
     }
-    static class ComplexNumber {
-        int a, b;
-        public ComplexNumber(int a, int b) {
-            this.a = a;
-            this.b = b;
-        }
-        void print() {
-            System.out.println(a + " + " + b + "i");
-        }
-        ComplexNumber add(ComplexNumber num2) {
-            this.print();
-            num2.print();
-            return new ComplexNumber(a + num2.a, b + num2.b);
-        }
+}
+class ComplexNumber {
+    int a, b;
+    public ComplexNumber(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+    void print() {
+        System.out.println(a + " + " + b + "i");
+    }
+    ComplexNumber add(ComplexNumber num2) {
+        this.print();
+        num2.print();
+        return new ComplexNumber(a + num2.a, b + num2.b);
     }
 }

@@ -15,15 +15,14 @@ public class MainClass {
         dog2.bark();
         in.close();
     }
-    static class Dog {
-        String name;
-        String color;
-        void walk() {
-            System.out.println(name + " is walking");
-        }
-        void bark() {
-            System.out.println(name + " is barking");
-        }
+}
+class Dog {
+    String name;
+    String color;
+    void walk() {
+        System.out.println(name + " is walking");
     }
-    
+    void bark() {
+        System.out.println(name + " is barking");
+    }
 }

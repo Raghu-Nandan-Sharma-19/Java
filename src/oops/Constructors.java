@@ -13,14 +13,14 @@ public class Constructors {
         num1.print();
         in.close();
     }   
-    static class Complex {
-        int a, b;
-        public Complex(int real, int imaginary) {
-            a = real;
-            b = imaginary;
-        }
-        void print() {
-            System.out.println("Complex number is : " + a + " + " + b + "i");
-        }
+}
+class Complex {
+    int a, b;
+    public Complex(int real, int imaginary) {
+        a = real;
+        b = imaginary;
+    }
+    void print() {
+        System.out.println("Complex number is : " + a + " + " + b + "i");
     }
 }

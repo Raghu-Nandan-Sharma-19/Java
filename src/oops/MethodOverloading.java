@@ -13,12 +13,13 @@ public class MethodOverloading {
         greet2.greetings(name);
         in.close();
     }
-    static class Greet {
-        void greetings() {
-            System.out.println("Hello, Good Morning");
-        }
-        void greetings(String name) {
-            System.out.println("Hello " + name + ", Good Morning");
-        }
+    
+}
+class Greet {
+    void greetings() {
+        System.out.println("Hello, Good Morning");
+    }
+    void greetings(String name) {
+        System.out.println("Hello " + name + ", Good Morning");
     }
 }
