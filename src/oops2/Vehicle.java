@@ -1,4 +1,4 @@
-package inheritance;
+package oops2;
 
 public class Vehicle {
     int wheelsCount;
