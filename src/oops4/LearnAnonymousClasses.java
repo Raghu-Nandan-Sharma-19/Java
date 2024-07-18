@@ -7,6 +7,7 @@ public class LearnAnonymousClasses {
                 System.out.println("Hi, I am outer method");
             }
         }; 
+        
         SuperInterface obj2 = new SuperInterface() {
             @Override
             public void interfaceMethod() {
