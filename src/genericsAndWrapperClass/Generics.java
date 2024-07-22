@@ -12,7 +12,7 @@ public class Generics {
         System.out.println("Id and name of dog 3 is : " + dog3.id + " " + dog3.name);
     }
 }
-class Dog<E, v> {
+class Dog<E, V> {
     E id;
     V name;
 
