@@ -10,7 +10,7 @@ public class Arrays {
         System.out.println(marks[3]);
 
         // Using for each loop
-        String[] names = {"Ram", "Rohit", "Novak", "Carlos", "Arthur"};
+        String[] names = {"Daniil", "Jannik", "Novak", "Carlos", "Arthur"};
         for (String name:names) {
             System.out.println("Name is : " + name);
         }
